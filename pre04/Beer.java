@@ -4,11 +4,11 @@ import java.util.*;
 public class Beer {
     public static void main(String[] args){
       
-      int b = 100; 
+      int b = 99; 
       int sub = 1;
   
       while (b > 0) {
-        System.out.println( b + " " + "Bottles of beer on the wall." + " " + b + " " + "Bottles of beer." + " " + "Take one down pass it around." + " " + (b - 1) + " " + "Bottles of beer on the wall.");
+        System.out.println( b + " " + "bottles of beer on the wall." + " " + b + " " + "bottles of beer." + " " + "ya take one down, ya' pass it around," + " " + (b - 1) + " " + "bottles of beer on the wall.");
          
           sub = b - sub;
             b = b - 1;
