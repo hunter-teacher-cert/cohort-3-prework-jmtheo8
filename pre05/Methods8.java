@@ -1,22 +1,37 @@
 public class Methods8 {
 
-    public static void main(String[] args) {
+  public static int ack {
 
-         int m = 1;
-         int n = 2;
-         int ack = n, m;
+         m = 1;
+         n = 2;
+         ack = (n, m);
+        
       
         if(m == 0)
         {
             return(n + 1);
+          }
+          
+       public static int ack1 {
+
+       m = 1;
+        n = 2;
+        ack1 = (n,m);
+        
         }
        if(m > 0 && n == 0)
         {
-            return(ack(m-1,1));
+            return(ack1(m-1,1));
         }
+
+        public static int ack2 {
+          m = 1;
+          n = 2;
+          ack2 = (n,m);
+          
        if(m >0 && n > 0);
         {
-            return(ack(m-1)) ack(m,n-1)));
+            return(ack2(m-1), ack2(m,n-1));
         }
 
     }
