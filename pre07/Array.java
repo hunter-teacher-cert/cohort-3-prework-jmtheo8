@@ -1,17 +1,29 @@
 import java.io.*;
 import java.util.*;
-import java.util.Arrays.*;
 
 public class Array {
+
 public static void main(String[] args){
 
-  int zero = 0;
-  int one = 1;
-  
-  int [] numbers = new int[3];
-  numbers[0] = 0;
-    
-  System.out.println(Arrays.toString(numbers));
+double[] a = powArray(new double[]{1, 2, 3, 4, 5});
 
-  }
 }
+
+public static double[] powArray (double a[]){
+       
+for (int i = 0; i < a.length; i++) {
+  a[i] = Math.pow(a[i], 2.0);
+  System.out.println((double)a[i]);
+  }
+  
+return a;
+}
+}
+
+
+
+
+
+
+
+

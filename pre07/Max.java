@@ -1,34 +1,26 @@
-public static void printArray(int[] array) {
-  for (int i = 0; i < array.length; i++) {
-    System.out.print(array[i] + " ");
-  }
+import java.io.*;
+import java.util.*;
+
+public class Max {
+
+public static void main(String[] args) {
+
+int[] counts = new int[100];
+for (int score: counts) {
+    counts[score]++;
 }
-You can invoke it by passing an array. For example, the following statement invokes the printArray method to display 3, 1, 2, 6, 4, and 2:
 
-printArray(new int[]{3, 1, 2, 6, 4, 2});
-
-
-
-
-
-
-
-  
-double [] powArray = new double []
-public static double sum(double[] a) {
-    double total = 0.0;
-    for (int i = 0; i < a.length; i++) {
-        total += a[i];
     }
-    return total;
+
+    public static int[] histogram ( int scores [] ){
+       
+for (int i = 0; i < scores.length; i++) {
+
+  System.out.println(scores);
+}
+    return scores;        
+
+      }
 }
 
-
-  
-int[] counts = new int[4];
-double[] values = new double[size];
-
-  
-System.out.println("The zeroth element is " + counts[0]);
-  
-  }
+//Starting with the code in Section 8.10, write a method called histogram that takes an int array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters. Generalize it to take the number of counters as an argument.
