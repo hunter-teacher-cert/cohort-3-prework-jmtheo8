@@ -1,26 +1,41 @@
+
 import java.io.*;
 import java.util.*;
 
 public class Max {
+public static void main (String[] args) {
 
-public static void main(String[] args) {
+int[] numbers = {10, 45, 100};  
 
-int[] counts = new int[100];
-for (int score: counts) {
-    counts[score]++;
+for (int i = 2; i < numbers.length; i++) {
+System.out.println(numbers[i]);
+
+} 
+}
 }
 
-    }
+/*
+FINAL ANSWER: 
+This method cannot be written using and enhanced for loop because I would not have access to an index value in an enhanced for loop, just the number itself. In a for loop I have access to the index value, see example above  "int i = 2", where as in an enhanced for loop, I do not have access to the index, just access to the number itself. See following example.
 
-    public static int[] histogram ( int scores [] ){
-       
-for (int i = 0; i < scores.length; i++) {
+import java.io.*;
+import java.util.*;
 
-  System.out.println(scores);
+public class Max {
+public static void main (String[] args) {
+
+int[] numbers = {10, 45, 100};
+for (int number : numbers) {
+
+ System.out.println(number); 
 }
-    return scores;        
-
-      }
+}
 }
 
-//Starting with the code in Section 8.10, write a method called histogram that takes an int array of scores from 0 to (but not including) 100, and returns a histogram of 100 counters. Generalize it to take the number of counters as an argument.
+The output is 
+10
+45
+100
+
+*/
+
