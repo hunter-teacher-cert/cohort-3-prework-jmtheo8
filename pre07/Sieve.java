@@ -27,9 +27,7 @@ public static void main(String args[]){
   int n = 74;
     if (true){
 
-  System.out.println("This are all the prime numbers that ");
-
-  System.out.println("are smaller or equal to the number " + n + ":");
+  System.out.println("All prime numbers between 0 and " + n + ":");
         
     Sieve m = new Sieve();
     m.sieve(n);
